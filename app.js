@@ -6,8 +6,8 @@ const today = require(__dirname + "/date.js");
 
 const app = express();
 
-const items = ["Have some coffee."];
-const schoolItems = [];
+const items = ["Have some coffee"];
+constmas schoolItems = [];
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.static("public"));
